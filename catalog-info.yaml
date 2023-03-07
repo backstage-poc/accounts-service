@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: accounts-team
   providesApis:
-    - account-info-api
+    - account_info_api
