@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accounts_service
+  description: Microservice for handling account information.
+spec:
+  type: service
+  lifecycle: production
+  owner: accounts-team
+  providesApis:
+    - account-info-api
