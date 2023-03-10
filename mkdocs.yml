@@ -1,0 +1,6 @@
+site_name: 'Accounts Microservices'
+docs_dir: .
+nav:
+  - Home: README.md
+plugins:
+  - techdocs-core
