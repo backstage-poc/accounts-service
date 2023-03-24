@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accounts_statment_service
+  description: Handling Accounts Statments
+spec:
+  type: service
+  system: Accounts
+  lifecycle: production
+  owner: accounts-team

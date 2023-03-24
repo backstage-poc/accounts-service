@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GSP
+  description: GSP
+spec:
+  type: service
+  system: Accounts
+  lifecycle: production
+  owner: gsp_team
+  providesApis:
+   - GSP_api

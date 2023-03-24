@@ -1,14 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: accounts_service
-  description: Microservice for handling account information.
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  name: model-components
+  description: Location of components
 spec:
-  type: service
-  system: Accounts
-  lifecycle: production
-  owner: accounts-team
-  providesApis:
-    - account_info_api
+  targets: 
+    - ./components/accounts-service.yaml
+    - ./components/gsp-service.yaml
+    - ./components/statement-service.yaml
+    - ./apis/gsp_api.yaml
