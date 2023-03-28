@@ -14,5 +14,3 @@ spec:
     - account_info_api
   consumesApis:
     - GSP_api
-  dependsOn:
-    - GSP
