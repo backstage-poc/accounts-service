@@ -15,5 +15,4 @@ spec:
   consumesApis:
     - GSP_api
   dependsOn:
-    Component:
-      - GSP
+    - ['component:GSP']
