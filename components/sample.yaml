@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample
+  description: Sample Component just for testing
+spec:
+  type: service
+  system: Accounts
+  lifecycle: production
+  owner: accounts-team
