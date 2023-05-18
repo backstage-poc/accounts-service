@@ -1,4 +1,5 @@
 site_name: 'Accounts Microservices'
+repo_url: 'https://github.com/backstage-poc/accounts-service/edit/main/'
 docs_dir: .
 nav:
   - Home: README.md
