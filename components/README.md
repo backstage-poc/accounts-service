@@ -1,5 +1,8 @@
-An h1 header
+Accounts Microservices
 ============
+
+This is the documentation page for Microservices, it's written in markdown and then rendered into a webpage by mkdocs. This is the fucntion of techdocs plugin and we can have a multipage documentation as well. 
+To demonstrate what's possible with formatting this page has been created.
 
 Paragraphs are separated by a blank line.
 
