@@ -5,6 +5,7 @@ metadata:
   description: Microservice for handling account information.
   annotations:
     backstage.io/techdocs-ref: dir:.
+  appID: app-1
 spec:
   type: service
   system: Accounts
