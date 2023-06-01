@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: GSP
   description: GSP
+  appId: app-3
 spec:
   type: service
   system: Accounts
