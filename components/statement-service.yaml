@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: accounts_statement_service
   description: Handling Accounts Statmentsf
-  appID: app-2
+  appID: app-5
 spec:
   type: service
   system: Accounts
