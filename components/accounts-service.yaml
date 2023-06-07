@@ -15,4 +15,4 @@ spec:
     - account_info_api
   consumesApis:
     - GSP_api
-  dependsOn: ['component:GSP']
+  dependsOn: ['component:GSP','resource:mongodb-database']
