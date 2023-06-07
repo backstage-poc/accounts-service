@@ -2,8 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: accounts_statement_service
-  description: Handling Accounts Statmentsf
+  description: Handling Accounts Statments
   appID: app-5
+  tags: 
+    - java
 spec:
   type: service
   system: Accounts
