@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: accounts_service
   description: Microservice for handling account information.
+  tags:
+    - java
   annotations:
     backstage.io/techdocs-ref: dir:.
   appID: app-1
